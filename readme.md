@@ -169,6 +169,12 @@ After that you need to again download this script, unzip it and continue:
 ```
 
 STAGE 5
+
+Kernel
+```
+/script/s5/kerncomp.sh
+```
+
 STAGE 6
 STAGE 7
 STAGE 8
