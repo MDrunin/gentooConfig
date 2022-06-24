@@ -5,6 +5,8 @@ cp /mnt/gentoo/usr/share/portage/config/repos.conf /mnt/gentoo/etc/portage/repos
 
 cp --dereference /etc/resolv.conf /mnt/gentoo/etc/
 
+cp /gentooConfig /mnt/gentoo/
+
 mount --types proc /proc /mnt/gentoo/proc
 mount --rbind /sys /mnt/gentoo/sys
 mount --make-rslave /mnt/gentoo/sys
