@@ -136,6 +136,17 @@ Example:
 /gentooConfig-main/script/s3/unziptar.sh 
 ```
 
+Now you need to setup your CFLAGS.
+
+#todo Suppor for different processors
+
+Run:
+```
+/script/s3/setupCflags.sh
+```
+
+We done with stage 3 now!
+
 STAGE 4
 STAGE 5
 STAGE 6
