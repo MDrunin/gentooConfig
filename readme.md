@@ -148,6 +148,20 @@ Run:
 We done with stage 3 now!
 
 STAGE 4
+
+Installing base system
+
+First of all you need to select your mirrors:
+```
+mirrorselect -i -o >> /mnt/gentoo/etc/portage/make.conf
+```
+Now we need to setup ebuild repos, copy DNS info, mount filesystems and finaly
+enter our new environment:
+```
+/script/s4/gochroot.sh
+```
+
+and choose mirrors that closest to you.
 STAGE 5
 STAGE 6
 STAGE 7
