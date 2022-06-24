@@ -1,5 +1,3 @@
-#! /bin/bash
-
 #format disk
 #sda1 - DOS boot 256M
 #sda2 - swap 1G
@@ -55,6 +53,8 @@ sed -i "s/^COMMON_FLAGS=.*/COMMON_FLAGS=\"-march=skylake -O2 -pipe\"/" /mnt/gent
 echo "MAKEOPTS=\"-j6\"" >> /mnt/gentoo/etc/portage/make.conf
 
 #TODO: COMMENT THIS
+mirrorselect -i -o >> /mnt/gentoo/etc/portage/make.conf
+
 mkdir --parents /mnt/gentoo/etc/portage/repos.conf
 cp /mnt/gentoo/usr/share/portage/config/repos.conf /mnt/gentoo/etc/portage/repos.conf/gentoo.conf
 
