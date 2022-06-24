@@ -41,7 +41,7 @@ Example:
 Now you are inside your QEMU VM. Press enter couple of times and you
 should be greeted with
 ```
-livecd#>
+livecd#
 ```
 
 STAGE 2
@@ -55,18 +55,26 @@ ping google.com
 If you dont have network, follow instructions in 
 wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Networking
 
-If everything is good, you should download this script inside your VM
-and continue:
+If everything is good, you should download this script inside your VM:
+```
+wget https://github.com/MDrunin/gentooConfig/archive/refs/heads/main.zip
+```
+And unzip it:
 
+```
+unzip main.zip
+cd gentooConfig-main
+```
 
-!!! ADD LINK TO GITHUB AND INSTRUCTION FOR LIKNS !!! 
+> **_NOTE:_** at this point all scripts should be started with your current pwd
+but at this readme it will be starting just with /
 
 At the end of this stage you should have network and scripts on your VM.
 STAGE 3
 
 Preparing the disk
 
-note: in this script I`m using Dos and 1G for swap partition
+> **_NOTE:_** in this script I`m using Dos and 1G for swap partition.
 First of all, check the name of your haddrive device:
 ```
 lsblk
@@ -99,8 +107,9 @@ q
 
 Creating filesystem and applying it to a pertion
 
-note: by default I use ext2 for boot, and ext4 for other
-note: this script also mounting the root partition
+> **_NOTE:_** by default I use ext2 for boot, and ext4 for other
+
+> **_NOTE:_** this script also mounting the root partition
 
 Run
 !!! TODO: VDA SUPPORT
