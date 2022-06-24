@@ -163,28 +163,34 @@ enter our new environment:
 /script/s4/gochroot.sh
 ```
 
-After that you need to again download this script, unzip it and continue:
+Run in new environment:
 ```
 /script/s4/postchroot.sh
 ```
 
 STAGE 5
 
-Kernel
+Kernel.
+#TODO 
+
 ```
 /script/s5/kerncomp.sh
 ```
 
 STAGE 6
+
+Configuring the system
+
+```
+script/s6/sysconfig.sh
+```
+
+
 STAGE 7
 STAGE 8
 STAGE 9
 STAGE 10
 
 
-Using OpenRC
-
-Processor:		Intel Core2, 6 threads
-Bootloader:		DOS bootloader
 
 
