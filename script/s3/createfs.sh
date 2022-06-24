@@ -12,3 +12,5 @@ swapon /dev/sda2
 mkdir --parents /mnt/gentoo
 mount /dev/sda3 /mnt/gentoo
 
+#for the next step (downloading stage3 tar)
+cd /mnt/gentoo

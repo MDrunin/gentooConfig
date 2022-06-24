@@ -53,7 +53,7 @@ Check your internet connection:
 ping google.com
 ```
 If you dont have network, follow instructions in 
-wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Networking
+https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Networking
 
 If everything is good, you should download this script inside your VM:
 ```
@@ -119,6 +119,22 @@ Run
 You just applyied fs for your partions, actvated swap pertition
 and mounted root partition.
 
+> :warning: **Warning**: Your pwd at this moment should be /mnt/gentoo !
+
+Now you need to go to gentoo.org:
+```
+links https://gentoo.org/downloads
+```
+and download stage3 openrc.
+After downloading is complete, run:
+```
+/script/s3/unziptar.sh X
+```
+where X is name of your tar.
+Example:
+```
+/gentooConfig-main/script/s3/unziptar.sh 
+```
 
 STAGE 4
 STAGE 5
