@@ -155,13 +155,19 @@ First of all you need to select your mirrors:
 ```
 mirrorselect -i -o >> /mnt/gentoo/etc/portage/make.conf
 ```
+and choose mirrors that closest to you.
+
 Now we need to setup ebuild repos, copy DNS info, mount filesystems and finaly
 enter our new environment:
 ```
 /script/s4/gochroot.sh
 ```
 
-and choose mirrors that closest to you.
+After that you need to again download this script, unzip it and continue:
+```
+/script/s4/postchroot.sh
+```
+
 STAGE 5
 STAGE 6
 STAGE 7
