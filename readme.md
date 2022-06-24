@@ -1,4 +1,10 @@
-My config.
+TODO: REFACTORING. 4 scripts in total:
+
+1. Create and boot qemu with instalation medium
+2. Pre chroot
+3. Post chroot
+4. Cleanup and reboot
+
 
 Brief:
 
