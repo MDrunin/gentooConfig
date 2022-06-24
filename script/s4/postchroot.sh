@@ -1,3 +1,5 @@
+#! /bin/bash
+
 source /etc/profile
 
 mount /dev/sda1 /boot
