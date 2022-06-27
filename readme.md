@@ -50,6 +50,8 @@ TODO:
 
 Comments in scripts
 
+Setup USE flags (-gnome -bluetooth etc)
+
 Manual config for /etc/fstab in case if user did their own fdisk
 
 Support for GPT setup (at this time only DOS supported)

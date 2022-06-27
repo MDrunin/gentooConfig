@@ -22,7 +22,7 @@ emerge --config sys-libs/timezone-data
 echo "en_US ISO-8859-1" >> /etc/locale.gen
 echo "en_US.UTF-88 UTF-8" >> /etc/locale.gen
 locale-gen
-eselect locale set 6
+eselect locale set 4
 
 env-update && source /etc/profile && export PS1="(chroot) ${PS1}"
 
