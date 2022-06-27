@@ -46,7 +46,8 @@ mount /dev/sda3 /mnt/gentoo
 
 #untar stage3-*
 cd /mnt/gentoo
-tar xpvf stage3-*.tar.xz --xattrs-include='*.*' --numeric-owner
+stage3=$(ls stage3*)
+tar xpvf $stage3 --xattrs-include='*.*' --numeric-owner
 
 #set CFLAGS (for intel i7, 6 threads)
 sed -i "s/^COMMON_FLAGS=.*/COMMON_FLAGS=\"-march=skylake -O2 -pipe\"/" /mnt/gentoo/etc/portage/make.conf
