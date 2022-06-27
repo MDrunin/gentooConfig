@@ -48,8 +48,8 @@ rbt.sh
 
 TODO:
 
-Add comments in scripts.
+Comments in scripts.
 
-Add manual config for /etc/fstab in case if user did their own fdisk.
+Manual config for /etc/fstab in case if user did their own fdisk.
 
-Add support for GPT setup (at this time only DOS supported).
+Support for GPT setup (at this time only DOS supported).
